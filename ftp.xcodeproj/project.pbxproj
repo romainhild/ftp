@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		902DED3217F236C4001B8C85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902DED3117F236C4001B8C85 /* Cocoa.framework */; };
+		902DED3C17F236C4001B8C85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 902DED3A17F236C4001B8C85 /* InfoPlist.strings */; };
+		902DED3E17F236C4001B8C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 902DED3D17F236C4001B8C85 /* main.m */; };
+		902DED4217F236C4001B8C85 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 902DED4017F236C4001B8C85 /* Credits.rtf */; };
+		902DED4517F236C4001B8C85 /* RKGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 902DED4417F236C4001B8C85 /* RKGAppDelegate.m */; };
+		902DED4817F236C4001B8C85 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902DED4617F236C4001B8C85 /* MainMenu.xib */; };
+		902DED4A17F236C4001B8C85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902DED4917F236C4001B8C85 /* Images.xcassets */; };
+		902DED5117F236C4001B8C85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902DED5017F236C4001B8C85 /* XCTest.framework */; };
+		902DED5217F236C4001B8C85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902DED3117F236C4001B8C85 /* Cocoa.framework */; };
+		902DED5A17F236C4001B8C85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 902DED5817F236C4001B8C85 /* InfoPlist.strings */; };
+		902DED5C17F236C4001B8C85 /* ftpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 902DED5B17F236C4001B8C85 /* ftpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		902DED5317F236C4001B8C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902DED2617F236C3001B8C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902DED2D17F236C3001B8C85;
+			remoteInfo = ftp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		902DED2E17F236C3001B8C85 /* ftp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ftp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902DED3117F236C4001B8C85 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		902DED3417F236C4001B8C85 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		902DED3517F236C4001B8C85 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		902DED3617F236C4001B8C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		902DED3917F236C4001B8C85 /* ftp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ftp-Info.plist"; sourceTree = "<group>"; };
+		902DED3B17F236C4001B8C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		902DED3D17F236C4001B8C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		902DED3F17F236C4001B8C85 /* ftp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ftp-Prefix.pch"; sourceTree = "<group>"; };
+		902DED4117F236C4001B8C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		902DED4317F236C4001B8C85 /* RKGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKGAppDelegate.h; sourceTree = "<group>"; };
+		902DED4417F236C4001B8C85 /* RKGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKGAppDelegate.m; sourceTree = "<group>"; };
+		902DED4717F236C4001B8C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		902DED4917F236C4001B8C85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		902DED4F17F236C4001B8C85 /* ftpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ftpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		902DED5017F236C4001B8C85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		902DED5717F236C4001B8C85 /* ftpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ftpTests-Info.plist"; sourceTree = "<group>"; };
+		902DED5917F236C4001B8C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		902DED5B17F236C4001B8C85 /* ftpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ftpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902DED2B17F236C3001B8C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902DED3217F236C4001B8C85 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902DED4C17F236C4001B8C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902DED5217F236C4001B8C85 /* Cocoa.framework in Frameworks */,
+				902DED5117F236C4001B8C85 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		902DED2517F236C3001B8C85 = {
+			isa = PBXGroup;
+			children = (
+				902DED3717F236C4001B8C85 /* ftp */,
+				902DED5517F236C4001B8C85 /* ftpTests */,
+				902DED3017F236C3001B8C85 /* Frameworks */,
+				902DED2F17F236C3001B8C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		902DED2F17F236C3001B8C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902DED2E17F236C3001B8C85 /* ftp.app */,
+				902DED4F17F236C4001B8C85 /* ftpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902DED3017F236C3001B8C85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				902DED3117F236C4001B8C85 /* Cocoa.framework */,
+				902DED5017F236C4001B8C85 /* XCTest.framework */,
+				902DED3317F236C4001B8C85 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		902DED3317F236C4001B8C85 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				902DED3417F236C4001B8C85 /* AppKit.framework */,
+				902DED3517F236C4001B8C85 /* CoreData.framework */,
+				902DED3617F236C4001B8C85 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		902DED3717F236C4001B8C85 /* ftp */ = {
+			isa = PBXGroup;
+			children = (
+				902DED4317F236C4001B8C85 /* RKGAppDelegate.h */,
+				902DED4417F236C4001B8C85 /* RKGAppDelegate.m */,
+				902DED4617F236C4001B8C85 /* MainMenu.xib */,
+				902DED4917F236C4001B8C85 /* Images.xcassets */,
+				902DED3817F236C4001B8C85 /* Supporting Files */,
+			);
+			path = ftp;
+			sourceTree = "<group>";
+		};
+		902DED3817F236C4001B8C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				902DED3917F236C4001B8C85 /* ftp-Info.plist */,
+				902DED3A17F236C4001B8C85 /* InfoPlist.strings */,
+				902DED3D17F236C4001B8C85 /* main.m */,
+				902DED3F17F236C4001B8C85 /* ftp-Prefix.pch */,
+				902DED4017F236C4001B8C85 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		902DED5517F236C4001B8C85 /* ftpTests */ = {
+			isa = PBXGroup;
+			children = (
+				902DED5B17F236C4001B8C85 /* ftpTests.m */,
+				902DED5617F236C4001B8C85 /* Supporting Files */,
+			);
+			path = ftpTests;
+			sourceTree = "<group>";
+		};
+		902DED5617F236C4001B8C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				902DED5717F236C4001B8C85 /* ftpTests-Info.plist */,
+				902DED5817F236C4001B8C85 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902DED2D17F236C3001B8C85 /* ftp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902DED5F17F236C4001B8C85 /* Build configuration list for PBXNativeTarget "ftp" */;
+			buildPhases = (
+				902DED2A17F236C3001B8C85 /* Sources */,
+				902DED2B17F236C3001B8C85 /* Frameworks */,
+				902DED2C17F236C3001B8C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ftp;
+			productName = ftp;
+			productReference = 902DED2E17F236C3001B8C85 /* ftp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		902DED4E17F236C4001B8C85 /* ftpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902DED6217F236C4001B8C85 /* Build configuration list for PBXNativeTarget "ftpTests" */;
+			buildPhases = (
+				902DED4B17F236C4001B8C85 /* Sources */,
+				902DED4C17F236C4001B8C85 /* Frameworks */,
+				902DED4D17F236C4001B8C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902DED5417F236C4001B8C85 /* PBXTargetDependency */,
+			);
+			name = ftpTests;
+			productName = ftpTests;
+			productReference = 902DED4F17F236C4001B8C85 /* ftpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902DED2617F236C3001B8C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RKG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Romain Hild";
+				TargetAttributes = {
+					902DED4E17F236C4001B8C85 = {
+						TestTargetID = 902DED2D17F236C3001B8C85;
+					};
+				};
+			};
+			buildConfigurationList = 902DED2917F236C3001B8C85 /* Build configuration list for PBXProject "ftp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 902DED2517F236C3001B8C85;
+			productRefGroup = 902DED2F17F236C3001B8C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902DED2D17F236C3001B8C85 /* ftp */,
+				902DED4E17F236C4001B8C85 /* ftpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902DED2C17F236C3001B8C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902DED3C17F236C4001B8C85 /* InfoPlist.strings in Resources */,
+				902DED4A17F236C4001B8C85 /* Images.xcassets in Resources */,
+				902DED4217F236C4001B8C85 /* Credits.rtf in Resources */,
+				902DED4817F236C4001B8C85 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902DED4D17F236C4001B8C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902DED5A17F236C4001B8C85 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902DED2A17F236C3001B8C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902DED3E17F236C4001B8C85 /* main.m in Sources */,
+				902DED4517F236C4001B8C85 /* RKGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902DED4B17F236C4001B8C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902DED5C17F236C4001B8C85 /* ftpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		902DED5417F236C4001B8C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902DED2D17F236C3001B8C85 /* ftp */;
+			targetProxy = 902DED5317F236C4001B8C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		902DED3A17F236C4001B8C85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902DED3B17F236C4001B8C85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		902DED4017F236C4001B8C85 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902DED4117F236C4001B8C85 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		902DED4617F236C4001B8C85 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902DED4717F236C4001B8C85 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		902DED5817F236C4001B8C85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902DED5917F236C4001B8C85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		902DED5D17F236C4001B8C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		902DED5E17F236C4001B8C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		902DED6017F236C4001B8C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ftp/ftp-Prefix.pch";
+				INFOPLIST_FILE = "ftp/ftp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		902DED6117F236C4001B8C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ftp/ftp-Prefix.pch";
+				INFOPLIST_FILE = "ftp/ftp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		902DED6317F236C4001B8C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ftp.app/Contents/MacOS/ftp";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ftp/ftp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ftpTests/ftpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		902DED6417F236C4001B8C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ftp.app/Contents/MacOS/ftp";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ftp/ftp-Prefix.pch";
+				INFOPLIST_FILE = "ftpTests/ftpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902DED2917F236C3001B8C85 /* Build configuration list for PBXProject "ftp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902DED5D17F236C4001B8C85 /* Debug */,
+				902DED5E17F236C4001B8C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902DED5F17F236C4001B8C85 /* Build configuration list for PBXNativeTarget "ftp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902DED6017F236C4001B8C85 /* Debug */,
+				902DED6117F236C4001B8C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		902DED6217F236C4001B8C85 /* Build configuration list for PBXNativeTarget "ftpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902DED6317F236C4001B8C85 /* Debug */,
+				902DED6417F236C4001B8C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 902DED2617F236C3001B8C85 /* Project object */;
+}
